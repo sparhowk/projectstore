@@ -16,12 +16,12 @@ public class Cloth extends Product{
 
         public ClothBuldier() {}
 
-        public Buldier setSize(String size) {
+        public ClothBuldier setSizeCloth(String size) {
             this.size = size;
             return this;
         }
 
-        public Buldier setMaterial(String material) {
+        public ClothBuldier setMaterial(String material) {
             this.material = material;
             return this;
         }
